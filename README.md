@@ -2,7 +2,7 @@ Hi, I'm Corrado 👋
 
 Senior Software Engineer → AI Engineer
 
-I build production-grade backend systems and AI applications, combining 15+ years of software engineering experience with modern LLM, RAG, agentic AI and MCP technologies.
+I build production-grade backend systems and AI applications, combining 10+ years of software engineering experience with modern LLM, RAG, agentic AI and MCP technologies.
 
 My background is primarily in .NET/C#, backend architecture, APIs, microservices and distributed systems. I'm now focused on building reliable AI systems where software engineering, LLMs and agentic workflows come together.
 
@@ -126,5 +126,3 @@ Senior Backend Engineer · AI Engineer · LLM Engineer · GenAI Engineer
 Particularly interested in roles combining strong backend engineering with applied AI.
 
 📍 Prague / Czech Republic · Europe
-
-"LinkedIn" (YOUR_LINKEDIN_URL)
