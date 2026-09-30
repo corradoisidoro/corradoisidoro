@@ -1,4 +1,4 @@
-Hi, I'm Doro 👋
+Hi, I'm Corrado 👋
 
 Senior Software Engineer → AI Engineer
 
