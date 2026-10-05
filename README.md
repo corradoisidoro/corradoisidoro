@@ -18,16 +18,13 @@ What I Build
 Tech
 
 Backend
-
-".NET" · "C#" · "ASP.NET Core" · "Python" · "FastAPI" · "Go"
+- ".NET" · "C#" · "ASP.NET Core" · "Python" · "FastAPI" · "Go"
 
 AI Engineering
-
-"LLMs" · "RAG" · "AI Agents" · "Agentic AI" · "MCP" · "LangChain" · "LangGraph" · "Tool Calling" · "Embeddings" · "Vector Search"
+- "LLMs" · "RAG" · "AI Agents" · "Agentic AI" · "MCP" · "LangChain" · "LangGraph" · "Tool Calling" · "Embeddings" · "Vector Search"
 
 Engineering
-
-"REST APIs" · "Microservices" · "Distributed Systems" · "Async Programming" · "Docker" · "CI/CD" · "Observability" · "Testing"
+- "REST APIs" · "Microservices" · "Distributed Systems" · "Async Programming" · "Docker" · "CI/CD" · "Observability" · "Testing"
 
 Featured Projects
 
@@ -125,4 +122,4 @@ Senior Backend Engineer · AI Engineer · LLM Engineer · GenAI Engineer
 
 Particularly interested in roles combining strong backend engineering with applied AI.
 
-📍 Prague / Czech Republic · Europe
+📍 Prague / Czech Republic
