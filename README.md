@@ -1,125 +1,114 @@
-Hi, I'm Corrado 👋
+<h1 align="center">Hi, I'm Corrado Isidoro 👋</h1>
 
-Senior Software Engineer → AI Engineer
+<h3 align="center">Senior Software Engineer | .NET/C# | Backend Systems | AI/LLM Applications</h3>
 
-I build production-grade backend systems and AI applications, combining 10+ years of software engineering experience with modern LLM, RAG, agentic AI and MCP technologies.
+<p align="center">
+  <a href="https://www.linkedin.com/in/corrado-isidoro-4230a167">LinkedIn</a>
+  ·
+  <a href="https://github.com/corradoisidoro?tab=repositories">Repositories</a>
+</p>
 
-My background is primarily in .NET/C#, backend architecture, APIs, microservices and distributed systems. I'm now focused on building reliable AI systems where software engineering, LLMs and agentic workflows come together.
+---
 
-What I Build
+## About me
 
-- 🤖 AI / LLM Applications — LLM integrations, structured outputs, tool calling and AI application architecture
-- 🔎 RAG Systems — document ingestion, chunking, embeddings, retrieval, reranking and evaluation
-- 🧠 Agentic AI — tool-using agents, workflows, memory, orchestration and controlled execution
-- 🔌 MCP — Model Context Protocol servers, tools and agent integrations
-- ⚙️ Backend Systems — APIs, microservices, distributed systems, data pipelines and reliability
-- 🏗️ Production Engineering — observability, testing, security, performance and failure handling
+I'm a Senior Software Engineer with **15+ years of experience building production software**, with a strong foundation in **C#/.NET, backend engineering, APIs, microservices, and distributed systems**.
 
-Tech
+Alongside my backend work, I build practical AI applications with Python, including **LLM integrations, Retrieval-Augmented Generation (RAG), and agentic workflows**. I’m interested in the engineering that makes these systems useful and dependable: retrieval quality, tool integration, context management, evaluation, observability, security, and failure handling.
 
-Backend
-- ".NET" · "C#" · "ASP.NET Core" · "Python" · "FastAPI" · "Go"
+I enjoy solving complex engineering problems, modernizing existing systems, and connecting new capabilities to real-world applications without losing sight of maintainability and operational reliability.
 
-AI Engineering
-- "LLMs" · "RAG" · "AI Agents" · "Agentic AI" · "MCP" · "LangChain" · "LangGraph" · "Tool Calling" · "Embeddings" · "Vector Search"
+📍 **Prague, Czech Republic** · Open to opportunities with English-speaking engineering teams.
 
-Engineering
-- "REST APIs" · "Microservices" · "Distributed Systems" · "Async Programming" · "Docker" · "CI/CD" · "Observability" · "Testing"
+## What I work with
 
-Featured Projects
+### Backend engineering
+- **Languages:** C#, Python, Go
+- **.NET:** .NET, ASP.NET Core, REST APIs
+- **Architecture:** APIs, microservices, distributed systems, system design, integrations
+- **Engineering practices:** automated testing, performance optimization, security, logging, monitoring, CI/CD
 
-🧩 MCP Production Toolkit
+### AI and LLM applications
+- LLM application development and integrations
+- Retrieval-Augmented Generation (RAG)
+- AI agents and tool calling
+- Prompt and context construction
+- Retrieval and answer-quality evaluation
+- **Tools and technologies:** LangChain, LangGraph, OpenAI, Ollama, MCP, pgvector
 
-A production-oriented toolkit for building, testing and operating MCP servers and tools.
+### Data and delivery
+- PostgreSQL, SQL Server, ChromaDB
+- Docker and containerized development
+- AWS and Azure
+- On-premises, hybrid, and cloud environments
 
-Focus areas:
+*This list highlights technologies relevant to my work; it is not intended to imply equal depth in every tool or platform.*
 
-- MCP server architecture
-- Typed tool definitions
-- Authentication and authorization
-- Tool validation
-- Error handling
-- Observability
-- Testing
-- AI-agent integration
+## Selected projects
 
-🔎 Production RAG
+### 🤖 [mini-agent-code](https://github.com/corradoisidoro/mini-agent-code) — Framework-free Python coding agent
 
-An end-to-end RAG system focused on the engineering problems that appear beyond the basic chatbot demo.
+A Python coding agent built from scratch to explore the core mechanics behind LLM tool calling and the agent execution loop without relying on an agent framework.
 
-Focus areas:
+**Focus areas:** model interaction, tool schemas, execution flow, and the engineering decisions behind agentic applications.
 
-- Document ingestion
-- Chunking strategies
-- Embeddings
-- Vector and hybrid retrieval
-- Reranking
-- Context construction
-- Retrieval evaluation
-- Hallucination reduction
-- Observability
+### 🔎 [review-rag-agent](https://github.com/corradoisidoro/review-rag-agent)
 
-🤖 Agent Engineering Lab
+A local RAG application using **Ollama** and **ChromaDB**, with LangChain supporting the retrieval workflow. The project explores answering questions from a review corpus using retrieved context, including behavior when the available evidence does not support an answer.
 
-Practical experiments and production patterns for LLM agents.
+**Focus areas:** local inference, embeddings, vector search, context construction, source-grounded answers, and evaluation.
 
-Focus areas:
+### 🎬 [CleanCinema](https://github.com/corradoisidoro/CleanCinema)
 
-- Tool calling
-- Agent workflows
-- Planning and execution
-- State and memory
-- Human-in-the-loop
-- Guardrails
-- Failure recovery
-- Agent evaluation
+A full-stack application showcasing modern .NET backend patterns and a React/TypeScript frontend.
 
-⚙️ Backend Engineering
+**Focus areas:** ASP.NET Core Minimal APIs, CQRS/MediatR, Entity Framework Core, validation, API error handling, and automated tests.
 
-A collection of production-oriented backend examples demonstrating the engineering principles behind reliable services.
+### 📦 [orders-api](https://github.com/corradoisidoro/orders-api)
 
-Focus areas:
+A Go-based orders API with PostgreSQL integration.
 
-- ASP.NET Core
-- C#
-- APIs
-- Microservices
-- Distributed systems
-- Concurrency
-- Performance
-- Testing
-- Architecture
+**Focus areas:** REST endpoints, data persistence, migrations, pagination, structured logging, and rate limiting.
 
-Engineering Philosophy
+### 🔐 [sentinel-rbac](https://github.com/corradoisidoro/sentinel-rbac)
 
-I care about the gap between "it works in a demo" and "it works reliably in production."
+A Go project focused on authentication and role-based access control.
 
-For AI systems that means thinking about:
+**Focus areas:** JWT authentication, authorization boundaries, and protecting administrative endpoints.
 
-- Reliability
-- Observability
-- Evaluation
-- Security
-- Latency
-- Cost
-- Failure handling
-- Deterministic control around probabilistic systems
+Explore more in my [public repositories](https://github.com/corradoisidoro?tab=repositories).
 
-For backend systems, the same principles apply.
+## Engineering impact
 
-Currently Exploring
+Examples of outcomes from my professional engineering work include:
 
-- Production agentic AI architectures
-- MCP and tool ecosystems
-- RAG evaluation and retrieval quality
-- LLM observability
-- Local and hybrid LLM deployments
-- AI-assisted backend engineering
+- Improved API response times by **20%**.
+- Supported services achieving **99.9% uptime**.
+- Reduced mean time to recovery (**MTTR**) by **30%**.
+- Built automation saving **10+ hours of manual work per week**.
 
-Open To
+The scope, baseline, measurement method, and my contribution vary by project. I’m happy to discuss the engineering context behind these results.
 
-Senior Backend Engineer · AI Engineer · LLM Engineer · GenAI Engineer
+## How I approach engineering
 
-Particularly interested in roles combining strong backend engineering with applied AI.
+- **Design for maintainability:** prefer clear boundaries and understandable code over unnecessary complexity.
+- **Build for operation:** consider logging, observability, failure modes, security, and supportability—not only the happy path.
+- **Test important behavior:** use automated tests to make changes safer and behavior easier to reason about.
+- **Use AI pragmatically:** apply LLMs and agents where they solve a real problem, and account for evaluation, uncertainty, and failure handling.
+- **Keep learning by building:** use small, focused projects to explore technologies and document the trade-offs.
 
-📍 Prague / Czech Republic
+## Currently interested in
+
+- Senior Backend Engineer / Senior Software Engineer roles
+- .NET/C# backend systems and distributed services
+- AI application engineering, RAG, LLM integration, and agentic workflows
+- Building reliable integrations between AI capabilities and existing software systems
+
+## Connect
+
+- **LinkedIn:** [corrado-isidoro](https://www.linkedin.com/in/corrado-isidoro-4230a167)
+- **GitHub:** [corradoisidoro](https://github.com/corradoisidoro)
+
+---
+
+*Thanks for visiting. Feel free to explore the repositories, open an issue, or connect on LinkedIn.*
