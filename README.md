@@ -18,7 +18,7 @@ Open to senior backend and AI engineering roles with English-speaking teams.
 
 - **[mini-agent-code](https://github.com/corradoisidoro/mini-agent-code)**: a tool-calling coding agent in pure Python, without an agent framework. Covers the model/tool loop, tool schemas, human confirmation for file writes and shell commands, and a turn-limit safeguard. Strictly typed (`mypy --strict`), tested with pytest, CI on every push.
 - **[agent-harness](https://github.com/corradoisidoro/agent-harness)**: a personal-assistant agent with a provider-agnostic loop over any OpenAI-compatible endpoint (local Ollama by default), MCP server tools, workspace-confined file tools and persistent memory. Failures are contained per tool and per model call. Tested with pytest, linted with Ruff, CI on every push.
-- **At work (private code):** built an automated RAG ingestion pipeline that detects new and updated documents, parses and chunks them, generates embeddings and indexes them in pgvector for an LLM-powered agent.
+- **[feedback-insights](https://github.com/corradoisidoro/feedback-insights)**: turn a batch of customer reviews into per-review labels, 1–5 scores, and themes with aggregate insights. Runs fully locally with FastAPI, Streamlit, Ollama, and SQLite. Features schema-constrained LLM outputs, per-review error isolation, and 100% test coverage.
 
 ### Backend
 
