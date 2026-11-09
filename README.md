@@ -4,20 +4,20 @@
 
 📍 Prague, Czech Republic · [LinkedIn](https://www.linkedin.com/in/corrado-isidoro-4230a167) · [All repositories](https://github.com/corradoisidoro?tab=repositories)
 
-## ⭐ Featured project: RAG evaluation with a custom LLM-as-a-Judge
+## ⭐ Featured Project
 
-[![CI](https://github.com/corradoisidoro/docs-rag-eval/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/corradoisidoro/docs-rag-eval/actions/workflows/ci.yml) [![Python](https://img.shields.io/badge/Python-3.14%2B-3776AB?logo=python&logoColor=white)](https://github.com/corradoisidoro/docs-rag-eval) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/corradoisidoro/docs-rag-eval/blob/main/LICENSE)
+**[docs-rag-eval →](https://github.com/corradoisidoro/docs-rag-eval)**
 
-**[docs-rag-eval →](https://github.com/corradoisidoro/docs-rag-eval)** · Python · FastAPI · RAG · LLM evaluation · Ollama
+A Python-based project focused on evaluating Retrieval-Augmented Generation (RAG) systems using a custom LLM-as-a-Judge.
 
-A hands-on project exploring how to evaluate RAG systems—not just how to build them. I implemented a custom LLM judge and a lightweight RAG application to investigate whether answers are correct, relevant, grounded in retrieved context, and supported by useful retrieval.
-
-- **Five complementary metrics:** answer correctness, answer relevancy, faithfulness, context precision, and context recall.
-- **Evaluation you can inspect:** structured judge responses, validated scores, per-case reports, and explicit handling of unanswerable questions.
+- **Five evaluation metrics:** Answer correctness, answer relevancy, faithfulness, context precision, and context recall.
+- **Transparent evaluation:** Structured judge responses, validated scores, per-case reports, and explicit handling of unanswerable questions.
 - **Practical engineering:** FastAPI endpoints, document ingestion and retrieval, SQLite storage, automated tests, and CI.
-- **Local-model friendly:** configured for an OpenAI-compatible API, with Ollama as the example provider.
+- **Local-model friendly:** OpenAI-compatible API integration, with Ollama as the example provider.
 
-The project focuses on understanding what evaluation scores mean, how they are produced, and whether they can be trusted. See the [README and setup instructions](https://github.com/corradoisidoro/docs-rag-eval#readme).
+The goal is to understand what evaluation scores measure, how they are produced, and whether they can be trusted.
+
+See the [README](https://github.com/corradoisidoro/docs-rag-eval#readme) for the methodology, implementation details, and setup instructions.
 
 ## About
 
