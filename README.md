@@ -4,11 +4,26 @@
 
 📍 Prague, Czech Republic · [LinkedIn](https://www.linkedin.com/in/corrado-isidoro-4230a167) · [All repositories](https://github.com/corradoisidoro?tab=repositories)
 
+## ⭐ Featured project: RAG evaluation with a custom LLM-as-a-Judge
+
+[![CI](https://github.com/corradoisidoro/docs-rag-eval/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/corradoisidoro/docs-rag-eval/actions/workflows/ci.yml) [![Python](https://img.shields.io/badge/Python-3.14%2B-3776AB?logo=python&logoColor=white)](https://github.com/corradoisidoro/docs-rag-eval) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/corradoisidoro/docs-rag-eval/blob/main/LICENSE)
+
+**[docs-rag-eval →](https://github.com/corradoisidoro/docs-rag-eval)** · Python · FastAPI · RAG · LLM evaluation · Ollama
+
+A hands-on project exploring how to evaluate RAG systems—not just how to build them. I implemented a custom LLM judge and a lightweight RAG application to investigate whether answers are correct, relevant, grounded in retrieved context, and supported by useful retrieval.
+
+- **Five complementary metrics:** answer correctness, answer relevancy, faithfulness, context precision, and context recall.
+- **Evaluation you can inspect:** structured judge responses, validated scores, per-case reports, and explicit handling of unanswerable questions.
+- **Practical engineering:** FastAPI endpoints, document ingestion and retrieval, SQLite storage, automated tests, and CI.
+- **Local-model friendly:** configured for an OpenAI-compatible API, with Ollama as the example provider.
+
+The project focuses on understanding what evaluation scores mean, how they are produced, and whether they can be trusted. See the [README and setup instructions](https://github.com/corradoisidoro/docs-rag-eval#readme).
+
 ## About
 
 I have 15+ years of experience building and running production backend systems in C#/.NET across on-premises, hybrid, AWS and Azure environments: APIs, microservices, performance, and reliability.
 
-I also build LLM applications in Python: RAG pipelines on PostgreSQL/pgvector, tool-calling agents and MCP integrations. I care about what makes these systems dependable in practice: failure handling, security boundaries, testing and observability.
+I also build LLM applications in Python: RAG pipelines, tool-calling agents, and MCP integrations. I care about what makes these systems dependable in practice: failure handling, validation, observability, and testing.
 
 Open to senior backend and AI engineering roles with English-speaking teams.
 
@@ -16,15 +31,15 @@ Open to senior backend and AI engineering roles with English-speaking teams.
 
 ### AI / LLM
 
-- **[mini-agent-code](https://github.com/corradoisidoro/mini-agent-code)**: a tool-calling coding agent in pure Python, without an agent framework. Covers the model/tool loop, tool schemas, human confirmation for file writes and shell commands, and a turn-limit safeguard. Strictly typed (`mypy --strict`), tested with pytest, CI on every push.
-- **[agent-harness](https://github.com/corradoisidoro/agent-harness)**: a personal-assistant agent with a provider-agnostic loop over any OpenAI-compatible endpoint (local Ollama by default), MCP server tools, workspace-confined file tools and persistent memory. Failures are contained per tool and per model call. Tested with pytest, linted with Ruff, CI on every push.
-- **[feedback-insights](https://github.com/corradoisidoro/feedback-insights)**: turn a batch of customer reviews into per-review labels, 1–5 scores, and themes with aggregate insights. Runs fully locally with FastAPI, Streamlit, Ollama, and SQLite. Features schema-constrained LLM outputs, per-review error isolation, and 100% test coverage.
+- **[mini-agent-code](https://github.com/corradoisidoro/mini-agent-code):** a tool-calling coding agent in pure Python, without an agent framework.
+- **[agent-harness](https://github.com/corradoisidoro/agent-harness):** a personal-assistant agent with a provider-agnostic loop over OpenAI-compatible endpoints, MCP tools, and local Ollama support.
+- **[feedback-insights](https://github.com/corradoisidoro/feedback-insights):** analyze customer reviews with AI-generated labels, scores, and themes using a local-first stack.
 
 ### Backend
 
-- **[orders-api](https://github.com/corradoisidoro/orders-api)**: Go order-management API on PostgreSQL with clean architecture, migrations, pagination, per-client rate limiting, graceful shutdown, Docker and 90%+ test coverage on core packages.
-- **[CleanCinema](https://github.com/corradoisidoro/CleanCinema)**: layered .NET 10 CQRS sample with an ASP.NET Core Minimal API, MediatR, EF Core, a FluentValidation pipeline, RFC 7807 ProblemDetails error handling and 24 xUnit tests against a real SQLite database. React/TypeScript client.
-- **[sentinel-rbac](https://github.com/corradoisidoro/sentinel-rbac)**: Go (Gin, GORM) API with JWT authentication in httpOnly cookies, role-based access control middleware, layered rate limiting and Swagger documentation.
+- **[orders-api](https://github.com/corradoisidoro/orders-api):** Go order-management API with PostgreSQL, migrations, cursor-based pagination, and rate limiting.
+- **[CleanCinema](https://github.com/corradoisidoro/CleanCinema):** .NET 10 Clean Architecture sample with CQRS, ASP.NET Core Minimal API, MediatR, and EF Core.
+- **[sentinel-rbac](https://github.com/corradoisidoro/sentinel-rbac):** Go API demonstrating JWT authentication and role-based access control.
 
 ## Tech I work with
 
